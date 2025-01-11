@@ -1,0 +1,18 @@
+.parent2 {
+  height: 65vh;
+  background-color: #2c3e50;
+}
+
+
+.end{
+  height: 15vh;
+  background-color: #1a252f;
+}
+
+@media only screen and (max-width: 768px) {
+  .ss{
+   padding-top: 30px !important;
+  }
+  
+
+}

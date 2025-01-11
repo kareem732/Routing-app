@@ -1,0 +1,23 @@
+.superStar{
+  position: relative;
+  z-index: 2;
+  }
+
+   .superStar::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    left: 30px;
+    top: 8px;
+    width: 75px;
+    height: 3px;
+  }
+  .superStar::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    right: 30px;
+    top: 8px;
+    width: 75px;
+    height: 3px;
+  }

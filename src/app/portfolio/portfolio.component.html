@@ -1,0 +1,62 @@
+<div class="parent text-center">
+  <div class="container"  >
+    <h2 class="h1 color2 text-uppercase fw-bold">portfolio component</h2>
+    <app-darkstar></app-darkstar>
+    <div class="row gy-4 gx-lg-3 mt-2">
+      <div class="col-md-6 col-lg-4 " (click)="open('images/poert1.png')">
+        <div class="god-of-star" >
+          <img src="images/poert1.png"  alt=""  class=" w-100 rounded-3" />
+          <div class="d-flex align-items-center  justify-content-center work rounded-3 ">
+            <i class="fa-solid fa-plus  rounded-3"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 " (click)="open('images/port2.png')">
+        <div class="god-of-star" >
+          <img src="images/port2.png" alt="" class="w-100 rounded-3" />
+          <div class="d-flex align-items-center justify-content-center work rounded-3 ">
+            <i class="fa-solid fa-plus  rounded-3 "></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 " (click)="open('images/port3.png')">
+        <div class="god-of-star" >
+          <img src="images/port3.png" alt="" class="w-100 rounded-3" />
+          <div class="d-flex align-items-center justify-content-center work rounded-3 ">
+            <i class="fa-solid fa-plus  rounded-3 "></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 " (click)="open('images/poert1.png')">
+        <div class="god-of-star" >
+          <img src="images/poert1.png" alt="" class="w-100 rounded-3" />
+          <div class="d-flex align-items-center justify-content-center work rounded-3 ">
+            <i class="fa-solid fa-plus  rounded-3 "></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 " (click)="open('images/port2.png')">
+        <div class="god-of-star" >
+          <img src="images/port2.png" alt="" class="w-100 rounded-3" />
+          <div class="d-flex align-items-center justify-content-center work rounded-3 ">
+            <i class="fa-solid fa-plus  rounded-3 "></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 " (click)="open('images/port3.png')">
+        <div class="god-of-star" >
+          <img src="images/port3.png" alt="" class="w-100 rounded-3" />
+          <div class="d-flex align-items-center justify-content-center work rounded-3 ">
+            <i class="fa-solid fa-plus  rounded-3 "></i>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="layer" [class.d-none] = "!isClicked" (click)="close()" >
+      <div class="  position-fixed top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center ">
+          <img  [src]="imgSrc" alt="" class="w-50" >
+      </div>
+
+    </div>
+  </div>
+</div>

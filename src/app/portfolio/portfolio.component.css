@@ -1,0 +1,32 @@
+.parent{
+  background-color: white !important;
+  padding: 70px 0 ;
+}
+.color2{
+  color:  #2c3e50;
+}
+
+.god-of-star{
+  position: relative;
+  cursor: pointer;
+}
+.work{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(26, 188, 156, 0.901);
+  opacity: 0;
+  transition: 0.5s;
+}
+.fa-plus{
+  font-size: 6rem;
+  color: white;
+}
+.god-of-star:hover .work{
+  opacity: 1;
+}
+.layer div {
+  background-color: rgba(8, 8, 242, 0.177);
+}

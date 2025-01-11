@@ -1,0 +1,53 @@
+.parent {
+  height: 65vh !important;
+  background-color: white !important;
+}
+.firs {
+  margin: 100px 0;
+}
+input {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+.send {
+  background-color: #1abc9c;
+  padding: 7px 13px;
+  border: none;
+}
+.sa {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.a {
+  transform: scale(1);
+  transition: 0.5s;
+}
+.Color {
+  color: #1abc9c;
+  margin: 0 10px;
+
+}
+
+.normal {
+  transform: translate(3px,8px);
+  opacity: 0;
+}
+.change {
+  transform: translate(1px,-40px);
+  opacity: 1;
+  transition: 1s;
+}
+.tr{
+  transition: 0.5s;
+}
+
